@@ -1,9 +1,11 @@
 
 import React from 'react';
+import MainContainer from '@/components/board/MainContainer';
 
 const BoardPage = () => (
-  <div>
+  <div className="board">
     <h1>Board</h1>
+    <MainContainer />
   </div>
 );
 
